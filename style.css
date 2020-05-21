@@ -1,6 +1,25 @@
 .title {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Marck Script', cursive;
     text-align: center;
+}
+
+.restart {
+    text-align: center;
+    background: #2E76CF;
+    color: white;
+    border: 0;
+    padding: 10px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.restart:hover {
+    background: #173b67;
+}
+
+button::-moz-focus-inner {
+    border: 0;
 }
 
 #container {
@@ -11,4 +30,5 @@
     margin: auto;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    box-shadow: gray 3px 3px 3px;
 }
