@@ -3,18 +3,23 @@
     text-align: center;
 }
 
-.restart {
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.restart,.rainbow {
     text-align: center;
     background: #2E76CF;
     color: white;
     border: 0;
     padding: 10px;
-    display: flex;
-    margin: auto;
+    margin-right: 20px;
+    margin-left: 20px;
     margin-bottom: 20px;
 }
 
-.restart:hover {
+.restart:hover,.rainbow:hover {
     background: #173b67;
 }
 
